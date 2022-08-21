@@ -47,22 +47,6 @@ def convert_labels():
 		lol=i.split('/')[-1].split('.')
 		sp.imsave(os.getcwd()+'/labels/'+lol[0]+'_label'+'.'+lol[1],rt_new.astype('uint8'))
 
-def file_parser(filename):
-	f=open(filename,'r')
-	content=f.readlines().splitlines()
-	total_len=len(content)
-	while(rl[-1]<total_len)
-	rl=[49,98,147,247]
-	for index,i in enumerate(rl):
-		if(index==3):
-			val_accs.append(float(content[i-1].split(' ')[-1][13:]))
-		else:
-			train_accs.append(float(content[i-1].split(' ')[-1][13:]))
-	rl=[i+247 for i in rl]
-
-
-def h5pytonpy(h5filename,npyfilename):
-	
 
 def correct_file(path):
 	f=open(path)
